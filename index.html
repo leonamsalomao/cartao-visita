@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Léo Salomão</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="CARD">
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="selo rocket" />
+          </span>
+
+          <img src="images/Eu.png" alt="foto pessoal" />
+        </div>
+        <!-- ID sempre e unico -->
+        <h1 id="userName">Léo Salomão</h1>
+        <a class="git" href="https://github.com/leonamsalomao" target="_blank">
+          <img src="images/GitHub.svg" alt="icone" />
+          <span id="userLogin"> Meu GitHub</span>
+        </a>
+
+        <p id="userBio">
+          Estudante de desenvolvimento WEB focado em Front-End, mas apaixonado
+          pelo universo da programaçao em geral!
+        </p>
+
+        <ul id="socialLinks">
+          <li class="linkedin">
+            <a href="" target="_black">
+              <img src="images/linkedin.svg" />
+            </a>
+          </li>
+          <li class="Facebook">
+            <a href="" target="_black">
+              <img src="images/Facebook.svg" />
+            </a>
+          </li>
+          <li class="Instagram">
+            <a href="" target="_black">
+              <img src="images/InstaGram.svg" />
+            </a>
+          </li>
+          <li class="Twitter">
+            <a href="" target="_black">
+              <img src="images/twiter.svg" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector('.CARD'), {
+        max: 25,
+        speed: 300,
+        glare: true,
+        'max-glare': 0.4
+      })
+    </script>
+  </body>
+</html>
