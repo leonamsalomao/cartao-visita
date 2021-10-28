@@ -32,7 +32,7 @@ body {
 }
 
 main {
-  background: url(images/Background.png);
+  background: url(images/Background.png) no-repeat center/cover;
   /*width: 375px;
   height: 812px;
   border: 2px solid;
