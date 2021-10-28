@@ -33,14 +33,14 @@ body {
 
 main {
   background: url(images/Background.png) no-repeat center/cover;
-  /*width: 375px;
+  width: 375px;
   height: 812px;
   border: 2px solid;
-  border-radius: 10px;*/
-  width: 100vw;
+  border-radius: 10px;
+  /*width: 100vw;
   min-height: 812px;
   height: 10vh;
-  border-radius: 10px;
+  border-radius: 10px;*/
 
   /* animation: go-back 2s infinite alternate; */
 }
